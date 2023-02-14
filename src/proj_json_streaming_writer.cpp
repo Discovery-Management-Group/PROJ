@@ -35,7 +35,7 @@
 #include "proj_json_streaming_writer.hpp"
 
 #include <string.h>
-#include <sqlite3.h>
+#include "sqlite3.h"
 #include <stdarg.h>
 #include <cmath>
 #define CPLAssert(x) do {} while(0)

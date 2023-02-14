@@ -45,7 +45,7 @@
 #include "proj/metadata.hpp"
 #include "proj/util.hpp"
 
-#include <sqlite3.h>
+#include "../../sqlite3.h"
 
 #if !defined(_WIN32)
 #include <sys/resource.h>

@@ -41,7 +41,7 @@
 
 #include <algorithm>
 
-#include <sqlite3.h>
+#include "../../sqlite3.h"
 
 #ifdef _MSC_VER
 #include <stdio.h>

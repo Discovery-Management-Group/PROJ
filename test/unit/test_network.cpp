@@ -35,7 +35,7 @@
 #include "proj_internal.h"
 #include <proj.h>
 
-#include <sqlite3.h>
+#include "../../sqlite3.h"
 #include <time.h>
 
 #ifdef CURL_ENABLED

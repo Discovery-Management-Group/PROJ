@@ -167,7 +167,7 @@ endif()
 target_link_libraries(test_network
   PRIVATE GTest::gtest
   PRIVATE ${PROJ_LIBRARIES}
-  PRIVATE ${SQLITE3_LIBRARY})
+  # PRIVATE ${SQLITE3_LIBRARY})
 add_test(NAME test_network COMMAND test_network)
 set_property(TEST test_network
   PROPERTY ENVIRONMENT ${PROJ_TEST_ENVIRONMENT})

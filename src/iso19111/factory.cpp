@@ -73,7 +73,7 @@
 #include "proj_internal.h"
 // clang-format on
 
-#include <sqlite3.h>
+#include "../sqlite3.h"
 
 // Custom SQLite VFS as our database is not supposed to be modified in
 // parallel. This is slightly faster

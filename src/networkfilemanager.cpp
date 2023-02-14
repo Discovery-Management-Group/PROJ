@@ -51,7 +51,7 @@
 
 #ifdef CURL_ENABLED
 #include <curl/curl.h>
-#include <sqlite3.h> // for sqlite3_snprintf
+#include "sqlite3.h" // for sqlite3_snprintf
 #endif
 
 #include <sys/stat.h>
